@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, 
+    #fdb94e,
+    #f9a852,
+    #f69653,
+    #f38654,
+    #f07654,
+    #ed6856,
+    #ef5956,
+    #ee4c58
+  );
+}
+.dado{
+    border-radius: 10px;
+    display: inline-block;
+}
+.dado p{
+    font-size:30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  border:3px solid #3498DB;
+  border-radius: 10px;
+  display: block;
+  background-color: black;
+  text-decoration: none;
+  color:white;
+  margin: 15px 15px;
+  padding: 15px 15px;
+}
+.Dados{
+    width: 220px;
+    margin: auto;
+    padding: 15px;
+}
+.Dados button{
+    margin:20px auto;
+}
+.instru{
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.instru ul li{
+    list-style: decimal;
+    padding:5px;
+}
+.instru ul {
+    padding: 10px;
+    margin-left: 15px;
+    margin-top:-20px;
+}
+.instru h1{
+    font-size: 50px;
+    margin: 10px 10px;
+}
+.Ejercicio{
+        width: 800px;
+        margin: auto;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Ejercicio h2{
+    margin: 5px 10px;
+}
+.Ejercicio p{
+    margin:10px 10px
+}
